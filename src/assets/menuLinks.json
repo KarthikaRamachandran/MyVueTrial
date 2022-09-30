@@ -1,0 +1,66 @@
+[
+  {
+    "icon": "#quickAccess",
+    "title": "Quick access",
+    "path": "/quick_access",
+    "height": "24",
+    "width": "24",
+    "enabled": true
+  },{
+      "icon": "#timeEntry",
+      "title": "Time Entry",
+      "path": "/timesheet",
+      "height": "24",
+      "width": "24",
+      "enabled": true
+    },
+    {
+      "icon": "#myInformationBlack",
+      "title": "My Information",
+      "path": "/my-information",
+      "height": "24",
+      "width": "18",
+      "enabled": true
+    },
+    {
+      "icon": "#payslipsBlack",
+      "title": "My Payslips",
+      "path": "/payslips",
+      "isActive": true,
+      "height": "24",
+      "width": "24",
+      "enabled": true
+    },
+    {
+      "icon": "#plane",
+      "title": "Leave",
+      "path": "/leaves",
+      "height": "24",
+      "width": "24",
+      "enabled": false
+    },{
+      "icon": "#requestsBlack",
+      "title": "Benefits",
+      "path": "/benefits",
+      "height": "24",
+      "width": "24",
+      "enabled": true
+    },
+    {
+      "icon": "#organizationalChart",
+      "title": "Organizational chart",
+      "path": "/orgchart",
+      "height": "24",
+      "width": "24",
+      "enabled": false
+    },
+    {
+      "icon": "#myTeam",
+      "title": "My Team",
+      "path": "/my-team",
+      "height": "24",
+      "width": "24",
+      "enabled": true
+    }
+  ]
+  

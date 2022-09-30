@@ -1,0 +1,115 @@
+.sidebar{
+  top: 0px;
+  left: 0px;
+  width: 228px;
+  border: 1px solid #eaeaea;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  opacity: 1;
+  display: inline-block;
+  transition: width 2s;
+}
+.sidebar--hide{
+  width: 50px;
+}
+.sidebar--hide .navlinks__text{
+  display: none;
+}
+.sidebar--hide .sidebar__heading{
+  padding-left: 13px;
+}
+.sidebar--hide .sidebar__togglebutton{
+  transform: rotate(180deg);
+  left: 40px;
+}
+.sidebar__heading{
+  text-align: center;
+  padding: 25px;
+  background: #001738 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.sidebar__text{
+  font: normal normal bold 14px/14px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  display: inline-block;
+}
+.nav__container{
+  /* padding: 12px; */
+  height: calc(100vh - 150px);
+  background: #FFFFFF;
+}
+.nav__body{
+  list-style: none;
+}
+.navlinks__icon{
+  margin-left: 12px;
+  margin-top: 6px;
+}
+.navlinks__text{
+  margin-left: 12px;
+  margin-top: 3px;
+  text-align: left;
+  font: normal normal normal 14px/60px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #001738;
+  opacity: 1;
+}
+.sidebar__footer{
+  bottom: 0px;
+  position: relative;
+  text-align: center;
+  font: normal normal normal 12px/17px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #657387;
+  opacity: 1;
+}
+.navlinks__svg{
+  width:24px;
+  height:24px;
+}
+.nav__links{
+  height: 40px;
+  background: #FFFFFF;
+  opacity: 1;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.router-link-active{
+  background: #F4F6F8 0% 0% no-repeat padding-box;
+  color: #FF5F1F;
+  border-left: 2px solid #FF5F1F;
+}
+.router-link-active .navlinks__text{
+  color: #FF5F1F;
+}
+.router-link-active .navlinks__svg{
+  fill: #FF5F1F;
+}
+.sidebar__togglebutton{
+top: 60px;
+left: 211px;
+position: absolute;
+width: 30px;
+height: 30px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #eaeaea;
+border-radius: 300px;
+transition: left 2s;
+}
+.sidebar__togglebutton:hover{
+  background-color: black;
+}
+.sidebar__togglebutton:hover svg{
+  stroke: white;
+}
+.sidebar__togglebutton svg{
+  width: 5px;
+  height: 10px;
+}
+main{
+  display: inline-block;
+  position: absolute;
+  margin-left: 50px;
+}
