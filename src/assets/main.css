@@ -102,7 +102,7 @@ transition: left 2s;
   background-color: black;
 }
 .sidebar__togglebutton:hover svg{
-  stroke: white;
+  stroke: #FF5F1F;
 }
 .sidebar__togglebutton svg{
   width: 5px;
@@ -112,4 +112,16 @@ main{
   display: inline-block;
   position: absolute;
   margin-left: 50px;
+  width: calc(100% - 300px);
+}
+.tooltip{
+  background: black;
+  color: #FFF;
+  border: 1px solid black;
+  border-radius: 12px;
+  position: absolute;
+  width: 70px;
+  font-size: 12px;
+  text-align: center;
+  padding: 12px;
 }

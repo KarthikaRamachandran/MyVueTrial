@@ -1,6 +1,5 @@
 <script>
 import { RouterLink, RouterView } from "vue-router";
-import HelloWorld from "./components/HelloWorld.vue";
 import Links_Data from "./assets/menuLinks.json";
 export default {
   data(){
